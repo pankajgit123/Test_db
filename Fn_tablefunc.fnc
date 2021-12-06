@@ -4,6 +4,7 @@ create or replace function Fn_tablefunc return number is
 l_emp e_emp;
 
 begin
+---update emp salary
   update emp
   set sal = sal + 100
   where dept_id =10
